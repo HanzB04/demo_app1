@@ -1,0 +1,53 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-13 19:38:28.418217",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "products",
+  "column_break_zvoek",
+  "quantity",
+  "price"
+ ],
+ "fields": [
+  {
+   "fieldname": "price",
+   "fieldtype": "Currency",
+   "label": "PRICE",
+   "reqd": 1
+  },
+  {
+   "fieldname": "column_break_zvoek",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "products",
+   "fieldtype": "Link",
+   "in_list_view": 1,
+   "label": "PRODUCT NAME",
+   "options": "Product H4 Stocks",
+   "reqd": 1
+  },
+  {
+   "fieldname": "quantity",
+   "fieldtype": "Int",
+   "label": "QUANTITY",
+   "reqd": 1
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-10-13 23:48:09.710814",
+ "modified_by": "Administrator",
+ "module": "H4work Demo",
+ "name": "Product H4 PURCH 2",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

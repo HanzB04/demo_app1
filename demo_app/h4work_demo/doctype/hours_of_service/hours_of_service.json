@@ -1,0 +1,44 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-11 15:08:21.426752",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "l_o_t",
+  "column_break_lsaoj",
+  "h_o_s"
+ ],
+ "fields": [
+  {
+   "fieldname": "l_o_t",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "Location of Travel"
+  },
+  {
+   "fieldname": "column_break_lsaoj",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "h_o_s",
+   "fieldtype": "Float",
+   "in_list_view": 1,
+   "label": "Hours of Travel"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "istable": 1,
+ "links": [],
+ "modified": "2023-10-11 16:56:18.021135",
+ "modified_by": "Administrator",
+ "module": "H4work Demo",
+ "name": "Hours of Service",
+ "owner": "Administrator",
+ "permissions": [],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1
+}

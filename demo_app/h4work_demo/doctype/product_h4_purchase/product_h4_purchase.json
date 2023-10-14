@@ -1,0 +1,122 @@
+{
+ "actions": [],
+ "allow_rename": 1,
+ "creation": "2023-10-13 19:33:20.634504",
+ "doctype": "DocType",
+ "editable_grid": 1,
+ "engine": "InnoDB",
+ "field_order": [
+  "c_name",
+  "contact_no",
+  "column_break_w0jjt",
+  "d_purch",
+  "p_amount",
+  "amended_from",
+  "section_break_kxmen",
+  "products",
+  "section_break_whnzv",
+  "total_amount",
+  "column_break_6olaz",
+  "change"
+ ],
+ "fields": [
+  {
+   "fieldname": "c_name",
+   "fieldtype": "Data",
+   "in_list_view": 1,
+   "label": "CUSTOMER'S NAME",
+   "reqd": 1
+  },
+  {
+   "fieldname": "contact_no",
+   "fieldtype": "Phone",
+   "in_list_view": 1,
+   "label": "CONTACT NO.",
+   "reqd": 1
+  },
+  {
+   "fieldname": "d_purch",
+   "fieldtype": "Date",
+   "in_list_view": 1,
+   "label": "DATE OF PURCHASE",
+   "reqd": 1
+  },
+  {
+   "fieldname": "p_amount",
+   "fieldtype": "Currency",
+   "in_list_view": 1,
+   "label": "PAYMENT AMOUNT"
+  },
+  {
+   "fieldname": "amended_from",
+   "fieldtype": "Link",
+   "label": "Amended From",
+   "no_copy": 1,
+   "options": "Product H4 Purchase",
+   "print_hide": 1,
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_w0jjt",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "products",
+   "fieldtype": "Table",
+   "label": "PRODUCTS",
+   "options": "Product H4 PURCH 2",
+   "reqd": 1
+  },
+  {
+   "fieldname": "section_break_kxmen",
+   "fieldtype": "Section Break"
+  },
+  {
+   "fieldname": "total_amount",
+   "fieldtype": "Currency",
+   "label": "TOTAL AMOUNT",
+   "read_only": 1
+  },
+  {
+   "fieldname": "change",
+   "fieldtype": "Currency",
+   "label": "CHANGE",
+   "read_only": 1
+  },
+  {
+   "fieldname": "column_break_6olaz",
+   "fieldtype": "Column Break"
+  },
+  {
+   "fieldname": "section_break_whnzv",
+   "fieldtype": "Section Break"
+  }
+ ],
+ "index_web_pages_for_search": 1,
+ "is_submittable": 1,
+ "links": [],
+ "modified": "2023-10-14 01:56:14.603667",
+ "modified_by": "Administrator",
+ "module": "H4work Demo",
+ "name": "Product H4 Purchase",
+ "owner": "Administrator",
+ "permissions": [
+  {
+   "create": 1,
+   "delete": 1,
+   "email": 1,
+   "export": 1,
+   "print": 1,
+   "read": 1,
+   "report": 1,
+   "role": "System Manager",
+   "share": 1,
+   "write": 1
+  }
+ ],
+ "sort_field": "modified",
+ "sort_order": "DESC",
+ "states": [],
+ "track_changes": 1,
+ "track_seen": 1
+}
